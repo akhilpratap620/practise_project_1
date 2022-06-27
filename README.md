@@ -14,3 +14,20 @@ Requirement.txt will be created
 ```
 pip install -r requirements.txt
 ```
+to add file in git 
+```
+git add . 
+```
+to chech status
+```
+git status
+```
+to commit
+```
+git commit -m "<message>"
+```
+to push code on git 
+```
+git push origin main
+```
+Note:>to ignore file or folder we use name of file .gitignore file
