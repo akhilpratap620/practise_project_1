@@ -5,5 +5,4 @@ housing/__init__.py
 housing_predict.egg-info/PKG-INFO
 housing_predict.egg-info/SOURCES.txt
 housing_predict.egg-info/dependency_links.txt
-housing_predict.egg-info/requires.txt
 housing_predict.egg-info/top_level.txt
