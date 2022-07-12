@@ -1,0 +1,8 @@
+[2022-07-12 08:01:44,271]^;INFO^;114^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact')
+[2022-07-12 08:01:44,283]^;INFO^;114^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact')
+[2022-07-12 08:01:44,284]^;ERROR^;25^;demo.py^;main()^;
+        Error occured in script: 
+        [ C:\Users\somit\Downloads\project_ineuron\practise_project_1\housing\config\configuration.py ] at 
+        try block line number: [78] and exception block line number: [95] 
+        error message: [module 'os' has no attribute 'join']
+        

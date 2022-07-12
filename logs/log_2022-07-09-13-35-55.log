@@ -1,0 +1,12 @@
+[2022-07-09 13:35:57,785]^;INFO^;86^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact')
+[2022-07-09 13:35:57,785]^;ERROR^;23^;demo.py^;main()^;
+        Error occured in script: 
+        [ C:\Users\somit\Downloads\project_ineuron\practise_project_1\housing\pipeline\pipeline.py ] at 
+        try block line number: [35] and exception block line number: [38] 
+        error message: [
+        Error occured in script: 
+        [ C:\Users\somit\Downloads\project_ineuron\practise_project_1\housing\pipeline\pipeline.py ] at 
+        try block line number: [24] and exception block line number: [28] 
+        error message: [name 'DataIngenstion' is not defined]
+        ]
+        

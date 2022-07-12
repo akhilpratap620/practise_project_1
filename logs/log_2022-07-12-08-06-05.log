@@ -1,0 +1,2 @@
+[2022-07-12 08:06:06,471]^;INFO^;114^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact')
+[2022-07-12 08:06:06,475]^;INFO^;114^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact')

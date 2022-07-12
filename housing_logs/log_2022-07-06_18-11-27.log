@@ -1,2 +1,4 @@
-[2022-07-06 18:12:35,453] root - INFO - Training pipleine config: TrainingPipelineConfig(artifact_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact')
-[2022-07-06 18:13:28,604] root - INFO - Training pipleine config: TrainingPipelineConfig(artifact_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact')
+[2022-07-06 18:12:35,453] root - INFO - Training pipleine config: 
+TrainingPipelineConfig(artifact_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact')
+[2022-07-06 18:13:28,604] root - INFO - Training pipleine config: 
+TrainingPipelineConfig(artifact_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact')

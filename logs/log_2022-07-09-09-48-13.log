@@ -1,0 +1,2 @@
+[2022-07-09 09:48:14,287]^;INFO^;86^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact')
+[2022-07-09 09:48:14,287]^;ERROR^;23^;demo.py^;main()^;name 'exception' is not defined

@@ -1,0 +1,7 @@
+[2022-07-09 09:49:01,141]^;INFO^;86^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact')
+[2022-07-09 09:49:01,142]^;ERROR^;23^;demo.py^;main()^;
+        Error occured in script: 
+        [ C:\Users\somit\Downloads\project_ineuron\practise_project_1\housing\pipeline\pipeline.py ] at 
+        try block line number: [35] and exception block line number: [38] 
+        error message: [name 'exception' is not defined]
+        

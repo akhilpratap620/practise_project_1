@@ -1,0 +1,38 @@
+[2022-07-09 22:29:05,863]^;INFO^;86^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact')
+[2022-07-09 22:29:05,864]^;INFO^;65^;configuration.py^;get_data_ingestion_config()^;Data Ingestion config: DataIngestionConfig(dataset_download_url='https://raw.githubusercontent.com/ageron/handson-ml/master/datasets/housing/housing.tgz', tgz_download_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact\\data_ingestion\\2022-07-09-22-28-34\\tgz_data', raw_data_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact\\data_ingestion\\2022-07-09-22-28-34\\raw_data', ingested_train_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact\\data_ingestion\\2022-07-09-22-28-34\\ingested_data\\train', ingested_test_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact\\data_ingestion\\2022-07-09-22-28-34\\ingested_data\\test')
+[2022-07-09 22:29:05,865]^;INFO^;16^;data_ingestion.py^;__init__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log started.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[2022-07-09 22:29:05,893]^;INFO^;37^;data_ingestion.py^;download_housing_data()^;Downloading file from :[https://raw.githubusercontent.com/ageron/handson-ml/master/datasets/housing/housing.tgz] into :[C:\Users\somit\Downloads\project_ineuron\practise_project_1\housing\artifact\data_ingestion\2022-07-09-22-28-34\tgz_data\housing.tgz]
+[2022-07-09 22:29:14,281]^;INFO^;39^;data_ingestion.py^;download_housing_data()^;File :[C:\Users\somit\Downloads\project_ineuron\practise_project_1\housing\artifact\data_ingestion\2022-07-09-22-28-34\tgz_data\housing.tgz] has been downloaded successfully.
+[2022-07-09 22:29:14,283]^;INFO^;54^;data_ingestion.py^;extract_tgz_file()^;Extracting tgz file: [C:\Users\somit\Downloads\project_ineuron\practise_project_1\housing\artifact\data_ingestion\2022-07-09-22-28-34\tgz_data\housing.tgz] into dir: [C:\Users\somit\Downloads\project_ineuron\practise_project_1\housing\artifact\data_ingestion\2022-07-09-22-28-34\raw_data]
+[2022-07-09 22:29:14,397]^;INFO^;57^;data_ingestion.py^;extract_tgz_file()^;Extraction completed
+[2022-07-09 22:29:14,398]^;INFO^;71^;data_ingestion.py^;split_data_as_train_test()^;Reading csv file: [C:\Users\somit\Downloads\project_ineuron\practise_project_1\housing\artifact\data_ingestion\2022-07-09-22-28-34\raw_data\housing.csv]
+[2022-07-09 22:29:15,401]^;INFO^;81^;data_ingestion.py^;split_data_as_train_test()^;Splitting data into train and test
+[2022-07-09 22:29:15,710]^;INFO^;99^;data_ingestion.py^;split_data_as_train_test()^;Exporting training datset to file: [C:\Users\somit\Downloads\project_ineuron\practise_project_1\housing\artifact\data_ingestion\2022-07-09-22-28-34\ingested_data\train\housing.csv]
+[2022-07-09 22:29:16,066]^;INFO^;104^;data_ingestion.py^;split_data_as_train_test()^;Exporting test dataset to file: [C:\Users\somit\Downloads\project_ineuron\practise_project_1\housing\artifact\data_ingestion\2022-07-09-22-28-34\ingested_data\test\housing.csv]
+[2022-07-09 22:29:16,110]^;INFO^;113^;data_ingestion.py^;split_data_as_train_test()^;Data Ingestion artifact:[DataIngestionArtifact(train_file_path='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact\\data_ingestion\\2022-07-09-22-28-34\\ingested_data\\train\\housing.csv', test_file_path='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact\\data_ingestion\\2022-07-09-22-28-34\\ingested_data\\test\\housing.csv', is_ingested=True, message='Data ingestion completed successfully.')]
+[2022-07-09 22:29:16,112]^;INFO^;37^;data_ingestion.py^;download_housing_data()^;Downloading file from :[https://raw.githubusercontent.com/ageron/handson-ml/master/datasets/housing/housing.tgz] into :[C:\Users\somit\Downloads\project_ineuron\practise_project_1\housing\artifact\data_ingestion\2022-07-09-22-28-34\tgz_data\housing.tgz]
+[2022-07-09 22:29:22,238]^;INFO^;39^;data_ingestion.py^;download_housing_data()^;File :[C:\Users\somit\Downloads\project_ineuron\practise_project_1\housing\artifact\data_ingestion\2022-07-09-22-28-34\tgz_data\housing.tgz] has been downloaded successfully.
+[2022-07-09 22:29:22,239]^;ERROR^;23^;demo.py^;main()^;
+        Error occured in script: 
+        [ C:\Users\somit\Downloads\project_ineuron\practise_project_1\housing\pipeline\pipeline.py ] at 
+        try block line number: [35] and exception block line number: [38] 
+        error message: [
+        Error occured in script: 
+        [ C:\Users\somit\Downloads\project_ineuron\practise_project_1\housing\pipeline\pipeline.py ] at 
+        try block line number: [26] and exception block line number: [28] 
+        error message: [
+        Error occured in script: 
+        [ C:\Users\somit\Downloads\project_ineuron\practise_project_1\housing\component\data_ingestion.py ] at 
+        try block line number: [122] and exception block line number: [125] 
+        error message: [
+        Error occured in script: 
+        [ C:\Users\somit\Downloads\project_ineuron\practise_project_1\housing\component\data_ingestion.py ] at 
+        try block line number: [50] and exception block line number: [60] 
+        error message: [[WinError 5] Access is denied: 'C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact\\data_ingestion\\2022-07-09-22-28-34\\raw_data']
+        ]
+        ]
+        ]
+        
+[2022-07-09 22:29:22,306]^;INFO^;130^;data_ingestion.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
