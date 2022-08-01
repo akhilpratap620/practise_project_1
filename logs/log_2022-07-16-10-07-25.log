@@ -1,0 +1,13 @@
+[2022-07-16 10:07:26,839]^;INFO^;166^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact')
+[2022-07-16 10:07:26,839]^;INFO^;14^;demo.py^;main()^;main function execution completed.
+[2022-07-16 10:07:26,845]^;INFO^;166^;configuration.py^;get_training_pipeline_config()^;
+Training pipleine config: TrainingPipelineConfig(artifact_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact')
+[2022-07-16 10:07:26,845]^;INFO^;142^;configuration.py^;
+get_data_transformation_config()^;Data transformation config: DataTransformationConfig
+(add_bedroom_per_room=True, 
+transformed_train_dir=
+'C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact\\data_transformation\\
+2022-07-16-10-07-25\\transformed_data\\train', 
+transformed_test_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact\\data_transformation\\2022-07-16-10-07-25\\transformed_data\\test', 
+preprocessed_object_file_path='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact\\data_transformation\\2022-07-16-10-07-25\\preprocessed\\preprocessed.pkl')
+[2022-07-16 10:07:26,846]^;ERROR^;25^;demo.py^;main()^;name 'data_transformation_config' is not defined

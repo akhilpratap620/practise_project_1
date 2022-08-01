@@ -1,5 +1,6 @@
 from housing.entity.config_entity import DataIngestionConfig
-import sys,os
+import sys
+import os
 from housing.exception import HousingException
 from housing.logger import logging
 from housing.entity.artifact_entity import DataIngestionArtifact
@@ -46,8 +47,9 @@ class DataIngestion:
         try:
             raw_data_dir = self.data_ingestion_config.raw_data_dir
 
-        
-            
+            if os.path.exists(raw_data_dir):
+                os.remove(raw_data_dir)
+
             os.makedirs(raw_data_dir,exist_ok=True)
 
             logging.info(f"Extracting tgz file: [{tgz_file_path}] into dir: [{raw_data_dir}]")

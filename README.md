@@ -56,4 +56,7 @@ to check any running container
 to stop docker container
 ```docker stop <container_id >
 ```
+```
+data_drift: when your dataset states gets changed we call it as data drift
+```
 

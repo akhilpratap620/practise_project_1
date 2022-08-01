@@ -1,0 +1,100 @@
+[2022-08-01 22:43:06,716]^;INFO^;224^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact')
+[2022-08-01 22:43:06,735]^;INFO^;224^;_internal.py^;_log()^; * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+[2022-08-01 22:43:49,238]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [01/Aug/2022 22:43:49] "GET /predict HTTP/1.1" 200 -
+[2022-08-01 22:43:56,369]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [01/Aug/2022 22:43:56] "GET / HTTP/1.1" 200 -
+[2022-08-01 22:44:34,348]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [01/Aug/2022 22:44:34] "GET /artifact HTTP/1.1" 200 -
+[2022-08-01 22:44:37,675]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [01/Aug/2022 22:44:37] "GET /artifact/housing/artifact HTTP/1.1" 200 -
+[2022-08-01 22:44:51,447]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [01/Aug/2022 22:44:51] "GET / HTTP/1.1" 200 -
+[2022-08-01 22:45:10,161]^;INFO^;224^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact')
+[2022-08-01 22:45:10,162]^;ERROR^;1456^;app.py^;log_exception()^;Exception on /train [GET]
+Traceback (most recent call last):
+  File "C:\Users\somit\Downloads\project_ineuron\practise_project_1\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\somit\Downloads\project_ineuron\practise_project_1\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\somit\Downloads\project_ineuron\practise_project_1\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\somit\Downloads\project_ineuron\practise_project_1\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 91, in train
+    if not Pipeline.experiment.running_status:
+AttributeError: type object 'Pipeline' has no attribute 'experiment'
+[2022-08-01 22:45:10,172]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [01/Aug/2022 22:45:10] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[2022-08-01 22:45:14,480]^;INFO^;224^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact')
+[2022-08-01 22:45:14,480]^;ERROR^;1456^;app.py^;log_exception()^;Exception on /train [GET]
+Traceback (most recent call last):
+  File "C:\Users\somit\Downloads\project_ineuron\practise_project_1\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\somit\Downloads\project_ineuron\practise_project_1\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\somit\Downloads\project_ineuron\practise_project_1\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\somit\Downloads\project_ineuron\practise_project_1\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 91, in train
+    if not Pipeline.experiment.running_status:
+AttributeError: type object 'Pipeline' has no attribute 'experiment'
+[2022-08-01 22:45:14,481]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [01/Aug/2022 22:45:14] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[2022-08-01 22:45:18,911]^;INFO^;224^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact')
+[2022-08-01 22:45:18,912]^;ERROR^;1456^;app.py^;log_exception()^;Exception on /train [GET]
+Traceback (most recent call last):
+  File "C:\Users\somit\Downloads\project_ineuron\practise_project_1\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\somit\Downloads\project_ineuron\practise_project_1\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\somit\Downloads\project_ineuron\practise_project_1\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\somit\Downloads\project_ineuron\practise_project_1\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 91, in train
+    if not Pipeline.experiment.running_status:
+AttributeError: type object 'Pipeline' has no attribute 'experiment'
+[2022-08-01 22:45:18,912]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [01/Aug/2022 22:45:18] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[2022-08-01 22:45:26,522]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [01/Aug/2022 22:45:26] "GET / HTTP/1.1" 200 -
+[2022-08-01 22:45:36,814]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [01/Aug/2022 22:45:36] "GET /saved_models HTTP/1.1" 200 -
+[2022-08-01 22:45:40,862]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [01/Aug/2022 22:45:40] "GET /predict HTTP/1.1" 200 -
+[2022-08-01 22:45:45,393]^;INFO^;224^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact')
+[2022-08-01 22:45:45,393]^;ERROR^;1456^;app.py^;log_exception()^;Exception on /train [GET]
+Traceback (most recent call last):
+  File "C:\Users\somit\Downloads\project_ineuron\practise_project_1\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\somit\Downloads\project_ineuron\practise_project_1\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\somit\Downloads\project_ineuron\practise_project_1\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\somit\Downloads\project_ineuron\practise_project_1\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 91, in train
+    if not Pipeline.experiment.running_status:
+AttributeError: type object 'Pipeline' has no attribute 'experiment'
+[2022-08-01 22:45:45,395]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [01/Aug/2022 22:45:45] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[2022-08-01 22:45:49,655]^;INFO^;224^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact')
+[2022-08-01 22:45:49,655]^;ERROR^;1456^;app.py^;log_exception()^;Exception on /train [GET]
+Traceback (most recent call last):
+  File "C:\Users\somit\Downloads\project_ineuron\practise_project_1\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\somit\Downloads\project_ineuron\practise_project_1\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\somit\Downloads\project_ineuron\practise_project_1\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\somit\Downloads\project_ineuron\practise_project_1\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 91, in train
+    if not Pipeline.experiment.running_status:
+AttributeError: type object 'Pipeline' has no attribute 'experiment'
+[2022-08-01 22:45:49,657]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [01/Aug/2022 22:45:49] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[2022-08-01 22:45:59,453]^;INFO^;224^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact')
+[2022-08-01 22:45:59,453]^;ERROR^;1456^;app.py^;log_exception()^;Exception on /train [GET]
+Traceback (most recent call last):
+  File "C:\Users\somit\Downloads\project_ineuron\practise_project_1\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\somit\Downloads\project_ineuron\practise_project_1\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\somit\Downloads\project_ineuron\practise_project_1\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\somit\Downloads\project_ineuron\practise_project_1\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "app.py", line 91, in train
+    if not Pipeline.experiment.running_status:
+AttributeError: type object 'Pipeline' has no attribute 'experiment'
+[2022-08-01 22:45:59,454]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [01/Aug/2022 22:45:59] "[35m[1mGET /train HTTP/1.1[0m" 500 -

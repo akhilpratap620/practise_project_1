@@ -1,0 +1,4 @@
+[2022-07-21 08:57:21,507]^;INFO^;196^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact')
+[2022-07-21 08:57:21,509]^;INFO^;14^;demo.py^;main()^;main function execution completed.
+[2022-07-21 08:57:21,523]^;INFO^;196^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact')
+[2022-07-21 08:57:21,523]^;INFO^;174^;configuration.py^;get_model_trainer_config()^;model_trainer_config:ModelTrainerConfig(trained_model_file_path='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact\\model_trainer\\2022-07-21-08-56-55\\trained_model\\model.pkl', base_accuracy=0.6, model_config_file_path='config\\model.yaml')

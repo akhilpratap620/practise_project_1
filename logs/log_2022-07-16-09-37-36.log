@@ -1,0 +1,5 @@
+[2022-07-16 09:37:38,170]^;INFO^;157^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact')
+[2022-07-16 09:37:38,172]^;INFO^;14^;demo.py^;main()^;main function execution completed.
+[2022-07-16 09:37:38,175]^;INFO^;157^;configuration.py^;get_training_pipeline_config()^;Training pipleine config: TrainingPipelineConfig(artifact_dir='C:\\Users\\somit\\Downloads\\project_ineuron\\practise_project_1\\housing\\artifact')
+[2022-07-16 09:37:38,175]^;INFO^;134^;configuration.py^;get_data_transformation_config()^;Data transformation is completed purely
+[2022-07-16 09:37:38,216]^;ERROR^;25^;demo.py^;main()^;name 'data_transformation_config' is not defined
